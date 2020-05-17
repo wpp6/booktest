@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+##PURPOSE
+This repository contains all of the source code used in the book, **Learn Harmony v3 for PIC32MZ**, by Bill Petrick, (c) 2020 (available from Amazon.com).  All of the source code in the book are labeled with a figure number.  I have copied all of the figures containing source code into files, one for each chapter, and uploaded the files to this github repository.  
 
-You can use the [editor on GitHub](https://github.com/wpp6/booktest/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+When you are working the examples in the book, you will want to copy the source code into the appropriate MPLAB X project file.  There are two easy methods to get the source code from this repository into the correct MPLAB X project file: (1) a simple cut-and-paste from the github file into the MPLAB X editor, or (2) download the zip-file (containing all of the individual chapters) to your local machine, unzip the files and then copy and paste the parts you want.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Suppose you are working on the project in Chapter 5 and the instructions say to replace the contents of app.h with what is shown in Figure 5-14. 
 
-### Markdown
+***Example - Method 1:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. In MPLAB X, open the app.h file in the editor and delete all of the file contents. 2. Go to this repository (at https://github.com/BillP/Learn_Hv3 and select the file, FiguresChapter5, to bring up the github editor.  3. Scroll down to Figure 5-14.  4.  Copy from the file header comment down to the "End Figure 5-14".  5.  Go to the MPLAB X editor and paste the copied text into the app.h file.  
 
-```markdown
-Syntax highlighted code block
+***Example - Method 2:
 
-# Header 1
-## Header 2
-### Header 3
+1.  In the github repository, select the zip-file, Chapters.zip.  2.  Click on the download button to the right of the name.  3.  On your local machine, move the zip file to where you want it and unzip it.  All of the chapters containing source code will be shown.  4.  To duplicate the results of Example - Method 1, open the file, FiguresChapter5, with your favorite text editor. 5.  Scroll down to Figure 5-14.  6.  Copy from the file header comment down to the "End Figure 5-14".  7.  Go to the MPLAB X editor and paste the copied text into the app.h file. 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wpp6/booktest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
