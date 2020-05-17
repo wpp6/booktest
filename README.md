@@ -18,7 +18,8 @@ Suppose you are working on the project in Chapter 5 and the instructions say to 
 
 * In the github repository, select the zip-file, Chapters.zip.  
 * Click on the download button to the right of the name.  
-* On your local machine, move the zip file to where you want it and unzip it.  All of the chapters containing source code will be shown.  * To duplicate the results of Example - Method 1, open the file, FiguresChapter5, with your favorite text editor. 
+* On your local machine, move the zip file to where you want it and unzip it to show all of the chapters containing source code.
+* Open the file, FiguresChapter5, with your favorite text editor. 
 * Scroll down to Figure 5-14.  
 * Copy from the file header comment down to the "End Figure 5-14".  
 * Go to the MPLAB X editor and paste the copied text into the app.h file. 
